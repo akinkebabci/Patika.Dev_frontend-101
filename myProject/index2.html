@@ -1,24 +1,119 @@
-<h1>Listeler</h1>
+<h1>HTML</h1>
+<div>
+    <h2>Listeler</h1>
 
-<!--
-    Sıralı Listeler  ->  1,2,3          -> <ol>
-    Sıralı Olmayan Listeler -> *,*,*    ->  <ul>
-    
-        list item <li> 
--->
-<ol>  <!--Sıralı Liste-->
-    <li>List1</li>
-    <li>List2</li>
-    <li>List3</li>
-    <li>List4</li>
-    <li>List5</li>
-</ol>
+    <!--
+        Sıralı Listeler  ->  1,2,3          -> <ol>
+        Sıralı Olmayan Listeler -> *,*,*    ->  <ul>
+        
+            list item <li> 
+    -->
+    <ol>  <!--Sıralı Liste-->
+        <li>List1</li>
+        <li>List2</li>
+        <li>List3</li>
+        <li>List4</li>
+        <li>List5</li>
+    </ol>
 
-<ul>  <!--Sırasız Liste-->
-    <li>List1</li>
-    <li>List2</li>
-    <li>List3</li>
-    <li>List4</li>
-    <li>List5</li>
-</ul>
+    <ul>  <!--Sırasız Liste-->
+        <li>List1</li>
+        <li>List2</li>
+        <li>List3</li>
+        <li>List4</li>
+        <li>List5</li>
+    </ul>
+
+
+    <h2>Emmet / Zen Coding </h2>
+
+    <!--
+        Etiket isimlerini drekt verebiliyoruz
+        + kardeş öge 
+        > icinde oge
+        ^ yukarı cık ve öge olustur
+        * carp ->  p*3
+        lorem ?
+        . -> class
+        # -> id
+
+    -->
+    <!--
+        h1+p+p+p+h2+p+p+p+p
+        h1+p+p+p+h2+p+p+p+p  -> h1+p*3+h2+p*3
+        ul>li*5 <ul> tagının içerisine 5 adet <li> tagı ile açılır
+    -->
+    <h1></h1>
+    <p></p>
+    <p></p>
+    <h2></h2>
+    <p></p>
+    <p></p>
+
+    <!--ul>li*5 -->
+
+    <!-- p>lorem-->>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illo ducimus vero eligendi expedita nisi, eos neque inventore distinctio laudantium explicabo laboriosam modi tempore enim saepe est harum odio qui!</p>
+
+    <!-- p>lorem4-->
+
+    <p>Lorem ipsum dolor sit.</p>
+
+    <!--h3.deneme   deneme clasından h3 tagı oluşturur-->
+
+    <h3 class="deneme"></h3>
+
+    <!--h3.deneme#idolussun>lorem1-->
+
+
+    <h3 class="deneme" id="idolussun">Lorem.</h3>
+
+
+    <h2>Görsellerle Çalışmak</h2>
+
+    <!--img-->
+    <img src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg" alt="img görseli">
+
+    <h2>Linklerle Çalışmak</h2>
+
+    <!--
+
+        -Aynı sayfa içinde bir yere
+        -Başka bir sayfaya git
+        -Başka bir web sitesine git
+        -Mail At
+        -Telefon et
+
+        <a href="">
+    -->
+
+    <!--target verilen linki başka bir sekmede açmak için kullanlılır-->
+    <ul>
+        <li>
+            <a href="https://kodluyoruz.org" target="_blank">Buraya Gidilecek</a> 
+        </li>
+        <li>
+            <a href="page.html"> İletişim sayfasına Git</a>
+        </li>
+        <li>
+            <a href="#footer">En alt kısıma git</a>
+        </li>
+        <li>
+            <a href="mailto:kebabci12@gmail.com">Mail At</a>
+        </li>
+        <li>
+            <a href="tel:+905555555555">Telefon Aç</a>
+        </li>
+    </ul>
+
+    <!--En Alt Kısım -->
+
+    <h2 id="footer">En Alt Kısım</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h2>Bloc element</h2>
+
+    <p><span style="color: red;">Lorem ipsum <strong>dolor sit</strong>  amet consectetur.</span> </p>
+
+</div>
 
