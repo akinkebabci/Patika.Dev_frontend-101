@@ -1,0 +1,58 @@
+#başlık1 {
+    color: aliceblue;
+    font-size: 64px;
+    font-family: EB Garamond, Regular;
+    background-color: #3D8361;
+    text-align: center;
+}
+
+#sayfalar {
+    color: #3D8361;
+    font-size: 24px;
+    font-family:  Lucida Grande ;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://www.mola.com/wp-content/uploads/2016/02/pattern-web-1.jpg);
+}
+
+.sola-kaydır {
+    float: left;
+    padding: 0 50px 10px 0;
+
+}
+
+
+.sınıf1 {
+    color: #3D8361;
+    font-family: EB Garamond, Regular;
+    font-size: 24px;
+}
+
+.sınıf2 {
+    color: #2C3333;
+    font-family: lucida Grande;
+    font-size: 18px;
+}
+
+.sınıf3 {
+    color: #2C3333;
+    font-size: 24px;
+    font-family: Lucida Grande;
+    text-align: center;
+}
+
+.sınıf4 {
+    color: #2C3333;
+    font-family: Lucida Grande;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sınıf5 {
+    color: #2C3333;
+    font-size: 16px;
+    font-family: Lucida Grande;
+}
+
